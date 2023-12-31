@@ -4,6 +4,8 @@
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
 
+ 
+
 h1,
 h2,
 h3 {
@@ -27,6 +29,7 @@ h3 {
 p {
   font-size: 18px;
   line-height: 1.5;
+  
 }
 
 .navigation-links {
@@ -62,7 +65,7 @@ p {
 
 .about-paragraphs {
   display: flex;
-  margin: 30px;
+  margin: 30px ;
 }
 
 .about-paragraphs p {
@@ -100,11 +103,10 @@ p {
   color: white;
 }
 p {
-  line-height: 1.5;
+  background: white
   font-size: 18px;
-  background: white;
+  line-height: 1.5;
 }
-
 .rounded {
-  border-radius: 0.25rem !important;
+  border-radius: 0.25rem!important;
 }

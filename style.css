@@ -110,3 +110,20 @@ p {
 .rounded {
   border-radius: 0.25rem!important;
 }
+
+@media(max-width:576px) {
+ .navbar {
+    margin-right: 50px;
+ }
+ h1 {
+    margin-top: 40px;
+    margin-right: 50px;
+ }
+ h3 {
+    margin-right: 30px;
+ }
+ .primary-link {
+    display: block;
+    margin:5px 60px ;
+ }
+}

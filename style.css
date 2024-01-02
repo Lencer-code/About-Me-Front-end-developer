@@ -117,7 +117,7 @@ p {
     margin-right: 5px;
   }
   h1 {
-    margin-top: 40px;
+    margin-top: 10px;
     margin-right: 50px;
   }
   h3 {
@@ -129,5 +129,6 @@ p {
   }
   p {
     text-align: center;
+    margin-left: 100px;
   }
 }

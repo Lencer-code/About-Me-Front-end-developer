@@ -4,7 +4,9 @@
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
 
- 
+body {
+  margin: 100px 0;
+}
 
 h1,
 h2,
@@ -29,7 +31,6 @@ h3 {
 p {
   font-size: 18px;
   line-height: 1.5;
-  
 }
 
 .navigation-links {
@@ -65,7 +66,7 @@ p {
 
 .about-paragraphs {
   display: flex;
-  margin: 30px ;
+  margin: 30px;
 }
 
 .about-paragraphs p {
@@ -103,27 +104,30 @@ p {
   color: white;
 }
 p {
-  background: white
-  font-size: 18px;
   line-height: 1.5;
+  font-size: 18px;
+  background: white;
 }
 .rounded {
-  border-radius: 0.25rem!important;
+  border-radius: 0.25rem !important;
 }
 
-@media(max-width:576px) {
- .navbar {
-    margin-right: 50px;
- }
- h1 {
+@media (max-width: 576px) {
+  .navbar {
+    margin-right: 5px;
+  }
+  h1 {
     margin-top: 40px;
     margin-right: 50px;
- }
- h3 {
+  }
+  h3 {
     margin-right: 30px;
- }
- .primary-link {
+  }
+  .primary-link {
     display: block;
-    margin:5px 60px ;
- }
+    margin: 5px 60px;
+  }
+  p {
+    text-align: center;
+  }
 }

@@ -127,4 +127,7 @@ p {
     display: block;
     margin: 5px 60px;
   }
+  p {
+    text-align: center;
+  }
 }
